@@ -5,7 +5,7 @@ def Add_student(register):
         Name = str(input('Name the student: '))
         Years = int(input('Years the student: '))
         Course_program = str(input('Which course or program?: '))
-        State = input('Active / desactivado: ')
+        State = input('Assed / deactivated: ')
         # Create new dictionary the student
         add = { 'ID': id, 'name': Name, 'years': Years, 'Course_program': Course_program, 'state': State}
         register.append(add)

@@ -3,6 +3,7 @@ from Register_student import Add_student
 from Check_student import List_student
 from Search_student import search
 from Uptade_student import  Update_student
+from Delete_student import Delete_student
 #----  --- #
 Student = []
 institution = 'yes'
@@ -30,7 +31,7 @@ def Menu():
         elif Users == 4:
             Update_student(Student)
         elif Users == 5:
-            print('pola')
+            Delete_student(Student)
         elif Users == 6:
             institution = 'no'
             print("Exit System...")
