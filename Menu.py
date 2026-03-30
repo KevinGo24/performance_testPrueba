@@ -23,7 +23,6 @@ def Menu():
         Users = int(input('Which option do you wish to choose?'))
         if Users == 1:
             Add_student(Student)
-                # Aquí llamas a tu función de agregar
         elif Users == 2:
             List_student(Student)
         elif Users == 3:
