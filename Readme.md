@@ -1,4 +1,4 @@
-#  Student Management System (Python)
+# Student Management System (Python)
 
 The user is shown a system to register, search, update, and delete using the console
 
