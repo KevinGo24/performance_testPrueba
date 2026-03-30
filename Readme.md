@@ -12,3 +12,4 @@ The user is shown a system to register, search, update, and delete using the con
 - ** Update_student = update Age,cours and state
 - ** Delete_student = Delete student the system
 - url = /home/Cohorte5/Vídeos/Grabaciones de la pantalla
+- url repository = https://github.com/KevinGo24/performance_testPrueba
