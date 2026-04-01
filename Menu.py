@@ -35,7 +35,7 @@ def Menu():
             institution = 'no'
             print("Exit System...")
             break
-    else:
-        print("Option no valid.")
-    if Users < 1 or Users > 6:
-        print("Option no valid. please, selecction one optión the 1 al 6.")
+        else:
+            print("Option no valid.")
+        if Users < 1 or Users > 6:
+            print("Option no valid. please, selecction one optión the 1 al 6.")
