@@ -5,7 +5,7 @@ def List_student(sheck):
         print('The student list is empty.')
     else:
         print('='*50)
-        print('List empty !!')
+        print('List students!!')
         print('='*50) 
         for list in sheck:
             print(f"ID: {list['ID']}")
